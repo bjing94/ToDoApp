@@ -3,9 +3,7 @@ import {
   Box,
   Button,
   ButtonGroup,
-  Container,
   Grid,
-  Input,
   makeStyles,
   TextField,
   Typography,
@@ -37,7 +35,6 @@ function AddBar({textInput,handleChange,handleAdd}){
                 color="primary"
                 value={textInput}
                 onChange={handleChange}
-                size="large"
                 
               />
               <Button
@@ -134,6 +131,7 @@ class ToDoList extends Component {
           </Grid>
         );
       }
+      return null;
     });
     return (
       <Grid container spacing={2}>

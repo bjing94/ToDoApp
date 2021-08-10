@@ -1,11 +1,9 @@
 import { createTheme } from "@material-ui/core";
 
 const white='#f5f4f2';
-// const gray
 const blue = '#79aab2';
 const darkBlue='#2d3f4c';
 const darkBlue2='#284c66'
-const lightBrown='#b28979';
 const black='#000';
 
 const  theme = createTheme({
